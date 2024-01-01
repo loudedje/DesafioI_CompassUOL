@@ -51,7 +51,7 @@ public class Main {
                 System.out.println("Boa madrugada, você se logou ao nosso sistema");
             }
         } else {
-            System.out.println("Nome de usuário ou senha incorretos. Tente novamente.");
+            System.out.println("Usuario e/ou senha incorretos");
         }
     }
 
