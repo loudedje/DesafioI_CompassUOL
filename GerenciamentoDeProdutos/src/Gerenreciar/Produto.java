@@ -57,7 +57,7 @@ public class Produto {
 	public void updateProdutoComprado(int quantidadeEstoque) {
 		if(quantidadeEstoque>0) {
 			this.quantidadeEstoque+=quantidadeEstoque;
-			System.out.println("Foi atualizado com successo " + " temos " + this.getQuantidadeEstoque()  + this.getNome()+ " no estoque");
+			System.out.println("Foi atualizado com successo ");
 			
 		}else {
 			System.out.println("A quantidade deve ser maior que zero");
