@@ -59,19 +59,7 @@ public class Main {
         System.out.println("Produto cadastrado com sucesso!");
     }
 
-    private static void atualizarEstoque(Map<String, Produto> estoque, Scanner scanner) {
-        System.out.print("Nome do Produto: ");
-        String nomeAtualizar = scanner.next();
-        System.out.print("Quantidade para Atualizar: ");
-        int quantidadeAtualizar = scanner.nextInt();
-        Produto produtoEstoque = estoque.get(nomeAtualizar);
-        if (produtoEstoque != null) {
-            produtoEstoque.updateProdutoComprado(quantidadeAtualizar);
-            System.out.println("Estoque atualizado com sucesso!");
-        } else {
-            System.out.println("Produto não encontrado.");
-        }
-    }
+    
 
     private static void atualizarQuantidadeVendida(Map<String, Produto> estoque, Scanner scanner) {
         System.out.print("Nome do Produto: ");
