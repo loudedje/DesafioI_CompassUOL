@@ -72,9 +72,6 @@ Este programa implementa um quiz com perguntas e respostas. O usuário fornece r
 3. Observe o resultado final, incluindo a nota atribuída.
 
 ---
-
-Sinta-se à vontade para ajustar as instruções conforme necessário e executar cada programa separadamente.
-
 LET'S GO!!!!
 
 Happy coding!
